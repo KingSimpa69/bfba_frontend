@@ -1,0 +1,14 @@
+{
+    "native": {
+        "chain"             :   1,
+        "bridgeContract"    :   "0x4Bf49509da5BDF73b95567Ae501C3e2E9d37BBaB",
+        "asset"             :   "0x9C8fF314C9Bc7F6e59A9d9225Fb22946427eDC03",
+        "abi"               :   "nouns"
+    },
+    "receiver": {
+        "chain"             :   8453,
+        "bridgeContract"    :   "0x0800867E573F54fa3A2823C5BcbB67e73B7a3575",
+        "asset"             :   "0x0800867E573F54fa3A2823C5BcbB67e73B7a3575",
+        "abi"               :   "receiver"
+    }
+}

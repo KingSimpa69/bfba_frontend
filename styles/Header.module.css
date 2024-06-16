@@ -1,0 +1,27 @@
+.headerWrap {
+    display:flex;
+    justify-content: space-between;
+}
+
+.headerCont {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.web3Button {
+    opacity:.9;
+    text-transform: uppercase;
+    font-family: Londrina;
+    color: #ffffff;
+    font-size: 26px;
+    background-color: #0052ff;
+    padding: 10px 20px;
+}
+
+.web3Button:hover {
+    cursor: pointer;
+    opacity: 1;
+}

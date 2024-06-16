@@ -1,0 +1,114 @@
+.wrapper {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: calc(100vh - 100px);
+}
+
+.chainLogo {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.directionContainer {
+  cursor: pointer;
+  z-index: +1;
+  display: flex;
+  align-items: center;
+}
+
+.pleaseConnect {
+  cursor: pointer;
+  margin-top: calc(50vh - 100px);
+  font-size: 30px;
+  font-family: Londrina;
+  text-transform: uppercase;
+  color: #000000f6;
+}
+
+.uiCont {
+  font-family: inter;
+  color:#ffffff;
+  margin-top: 30px;
+  border: 1px solid #00000036;
+  border-radius: 10px;
+  width:690px;
+  max-width: 96vw;
+  height: 300px;
+  background-color: #5a89d9;
+  box-shadow: 0 0 100px 100px #48abe0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:30px;
+  align-items: center;
+}
+
+.title {
+  z-index: +1;
+  font-family: Londrina;
+  font-size: 50px;
+  color: #1c274c;
+}
+
+.bigButton {
+  opacity:.9;
+  text-transform: uppercase;
+  font-family: Londrina;
+  color: #ffffff;
+  font-size: 26px;
+  background-color: #0052ff;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.bigButton:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.bigButtonNope {
+  text-transform: uppercase;
+  font-family: Londrina;
+  color: #ffffff;
+  font-size: 26px;
+  background-color: #8b8b8b;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.bigButtonNope:hover {
+  cursor: not-allowed;
+}
+
+.idInput {
+  background-color: #ffffff00;
+  border: none;
+  border-bottom: #00000056 1px solid;
+  font-family: Londrina;
+  font-size: 50px;
+  text-align: center;
+  width:150px;
+}
+
+.footer {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 auto; /* Flex-shrink is enabled, flex-grow is disabled */
+  text-align: center;
+  margin-top: auto;
+  width: 100%;
+  height: 50px;
+  font-family: Londrina;
+  color: #ffffff;
+  font-size: 20px;
+}

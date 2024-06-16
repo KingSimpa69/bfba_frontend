@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Londrina;
+  src: url(../fonts/Londrina_Solid.ttf)
+}
+
+@font-face {
+  font-family: inter;
+  src: url(../fonts/inter.ttf)
+}
+
+@keyframes l15{ 
+  100%{transform: rotate(1turn)}
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height:100vh;
+  background: linear-gradient(
+    to top,
+    transparent,
+    #d5d7e1
+  )
+  #135dd4;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  display: grid;
+  border: 4px solid #0000;
+  border-radius: 50%;
+  border-right-color: #ffffff;
+  animation: l15 1s infinite linear;
+}
+.loader::before,
+.loader::after {    
+  content: "";
+  grid-area: 1/1;
+  margin: 2px;
+  border: inherit;
+  border-radius: 50%;
+  animation: l15 2s infinite;
+}
+.loader::after {
+  margin: 8px;
+  animation-duration: 3s;
+}
